@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/danwatford/thread-context-copy.svg?branch=master)](https://travis-ci.org/danwatford/awf-referral)
+[![Build Status](https://travis-ci.org/danwatford/thread-context-copy.svg?branch=master)](https://travis-ci.org/danwatford/thread-context-copy)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # Thread Context Copy
