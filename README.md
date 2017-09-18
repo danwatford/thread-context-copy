@@ -13,5 +13,8 @@ ContextCopyingThreadFactory. This ThreadFactory is itself constructed with a Col
 The ContextCopiers are responsible for copying or capturing the contextual information on the initial thread
 and applying the contextual information onto the new threads created by the ThreadFactory.
 
+## Example
 
+Class ExecutorServiceExample can be run as a test case. It demonstrates how thread-specific
+storage (using Log4J2's ThreadContext) can be copied to a Thread created by the ContextCopyingThreadFactory.
 
