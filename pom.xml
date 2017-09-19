@@ -5,35 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.foomoo.threadutil</groupId>
-    <artifactId>thread-context-copy</artifactId>
+    <artifactId>thread-context-copy-parent</artifactId>
+    <packaging>pom</packaging>
     <version>0.2-SNAPSHOT</version>
-
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>19.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.7</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+    <modules>
+        <module>threadcontextcopyexamples</module>
+        <module>threadcontextcopy</module>
+    </modules>
 
     <build>
         <plugins>

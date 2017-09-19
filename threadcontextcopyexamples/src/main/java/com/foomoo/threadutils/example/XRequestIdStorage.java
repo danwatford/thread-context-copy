@@ -1,4 +1,4 @@
-package com.foomoo.threadutil.examples;
+package com.foomoo.threadutils.example;
 
 import org.apache.logging.log4j.ThreadContext;
 

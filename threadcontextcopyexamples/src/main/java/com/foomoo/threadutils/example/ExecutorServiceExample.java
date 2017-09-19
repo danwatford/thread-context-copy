@@ -1,10 +1,9 @@
-package com.foomoo.threadutil.examples;
+package com.foomoo.threadutils.example;
 
 import com.foomoo.threadutil.ContextCopyingThreadFactory;
 import com.google.common.collect.ImmutableList;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.Test;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -21,8 +20,7 @@ public class ExecutorServiceExample {
      *
      * @throws InterruptedException Not expected to be thrown.
      */
-    @Test
-    public void example() throws InterruptedException {
+    public static void main(final String args[]) throws InterruptedException {
 
         XRequestIdStorage.setRequestId("OriginalRequestId");
 
@@ -44,7 +42,7 @@ public class ExecutorServiceExample {
         executorService.awaitTermination(1, TimeUnit.SECONDS);
     }
 
-    private Runnable getRunnable(final int taskId, final Logger logger) {
+    private static Runnable getRunnable(final int taskId, final Logger logger) {
         return () -> {
             logger.info("Task {} before sleep", taskId);
             try {

@@ -15,6 +15,6 @@ and applying the contextual information onto the new threads created by the Thre
 
 ## Example
 
-Class ExecutorServiceExample can be run as a test case. It demonstrates how thread-specific
+Class ExecutorServiceExample  demonstrates how thread-specific
 storage (using Log4J2's ThreadContext) can be copied to a Thread created by the ContextCopyingThreadFactory.
 
